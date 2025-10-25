@@ -1,0 +1,12 @@
+{
+  "name": "my-fullstack-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start-backend": "cd backend && npm start",   
+    "start-my-dashboard": "cd my-dashboard && npm start",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-my-dashboard\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
